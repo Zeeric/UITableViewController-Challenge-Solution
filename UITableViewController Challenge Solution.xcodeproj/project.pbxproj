@@ -14,13 +14,13 @@
 		7C1EF8A31972DF6800ECB80A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EF8A21972DF6800ECB80A /* main.m */; };
 		7C1EF8A71972DF6800ECB80A /* ZEEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EF8A61972DF6800ECB80A /* ZEEAppDelegate.m */; };
 		7C1EF8AA1972DF6800ECB80A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C1EF8A81972DF6800ECB80A /* Main.storyboard */; };
-		7C1EF8AD1972DF6800ECB80A /* ZEEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EF8AC1972DF6800ECB80A /* ZEEViewController.m */; };
 		7C1EF8AF1972DF6800ECB80A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C1EF8AE1972DF6800ECB80A /* Images.xcassets */; };
 		7C1EF8B61972DF6900ECB80A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1EF8B51972DF6900ECB80A /* XCTest.framework */; };
 		7C1EF8B71972DF6900ECB80A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1EF8961972DF6800ECB80A /* Foundation.framework */; };
 		7C1EF8B81972DF6900ECB80A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1EF89A1972DF6800ECB80A /* UIKit.framework */; };
 		7C1EF8C01972DF6900ECB80A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C1EF8BE1972DF6900ECB80A /* InfoPlist.strings */; };
 		7C1EF8C21972DF6900ECB80A /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EF8C11972DF6900ECB80A /* UITableViewController_Challenge_SolutionTests.m */; };
+		7C1EF8CD1972F80D00ECB80A /* ZEETableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C1EF8CC1972F80D00ECB80A /* ZEETableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		7C1EF8A51972DF6800ECB80A /* ZEEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZEEAppDelegate.h; sourceTree = "<group>"; };
 		7C1EF8A61972DF6800ECB80A /* ZEEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEEAppDelegate.m; sourceTree = "<group>"; };
 		7C1EF8A91972DF6800ECB80A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7C1EF8AB1972DF6800ECB80A /* ZEEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZEEViewController.h; sourceTree = "<group>"; };
-		7C1EF8AC1972DF6800ECB80A /* ZEEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZEEViewController.m; sourceTree = "<group>"; };
 		7C1EF8AE1972DF6800ECB80A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7C1EF8B41972DF6900ECB80A /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C1EF8B51972DF6900ECB80A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7C1EF8BD1972DF6900ECB80A /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		7C1EF8BF1972DF6900ECB80A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7C1EF8C11972DF6900ECB80A /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		7C1EF8CB1972F80D00ECB80A /* ZEETableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZEETableViewController.h; sourceTree = "<group>"; };
+		7C1EF8CC1972F80D00ECB80A /* ZEETableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZEETableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				7C1EF8A51972DF6800ECB80A /* ZEEAppDelegate.h */,
 				7C1EF8A61972DF6800ECB80A /* ZEEAppDelegate.m */,
 				7C1EF8A81972DF6800ECB80A /* Main.storyboard */,
-				7C1EF8AB1972DF6800ECB80A /* ZEEViewController.h */,
-				7C1EF8AC1972DF6800ECB80A /* ZEEViewController.m */,
+				7C1EF8CB1972F80D00ECB80A /* ZEETableViewController.h */,
+				7C1EF8CC1972F80D00ECB80A /* ZEETableViewController.m */,
 				7C1EF8AE1972DF6800ECB80A /* Images.xcassets */,
 				7C1EF89D1972DF6800ECB80A /* Supporting Files */,
 			);
@@ -251,8 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C1EF8A31972DF6800ECB80A /* main.m in Sources */,
-				7C1EF8AD1972DF6800ECB80A /* ZEEViewController.m in Sources */,
 				7C1EF8A71972DF6800ECB80A /* ZEEAppDelegate.m in Sources */,
+				7C1EF8CD1972F80D00ECB80A /* ZEETableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
